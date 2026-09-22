@@ -1,11 +1,5 @@
 # Smart MCQ Solver — DL & Generative AI Project
 
-- **Name:** Pranay Aggarwal
-- **Email ID:**  24f3004524@ds.study.iitm.ac.in
-- **Roll No:** 24f3004524
-- **Term:** T2-2026
-- **Kaggle Competition:** Smart MCQ Solver Challenge
-
 ---
 # 🏆 **Kaggle Leaderboard: 58 / 1476** (Top 4%) 
 ---
@@ -47,3 +41,9 @@ Competition data (`train.csv`, `test.csv`, `sample_submission.csv`) is loaded at
 
 ## 6. Live Demo
 The best-performing model from this project (a custom BiLSTM + Transformer architecture trained from scratch) is deployed as an interactive Hugging Face Space, allowing users to input a question and five answer options and receive ranked model predictions in real time. Try it here: [MCQ Scratch Solver](https://huggingface.co/spaces/pranay-aggarwal/mcq-scratch-solver). The trained model weights and configuration are also hosted separately on the Hugging Face Model Hub: [mcq-scratch-lstm-transformer](https://huggingface.co/pranay-aggarwal/mcq-scratch-lstm-transformer).
+
+- **Name:** Pranay Aggarwal
+- **Email ID:**  24f3004524@ds.study.iitm.ac.in
+- **Roll No:** 24f3004524
+- **Term:** T2-2026
+- **Kaggle Competition:** Smart MCQ Solver Challenge
