@@ -7,6 +7,8 @@
 - **Kaggle Competition:** Smart MCQ Solver Challenge
 
 ---
+# 🏆 **Kaggle Leaderboard: 58 / 1476** (Top 4%) 
+---
 
 ## 1. Project Overview
 5-option (A–E) multiple-choice question answering task. Given a `prompt` and 5 candidate options, the model predicts the top-3 most likely correct options, scored by **MAP@3** (Mean Average Precision @ 3).
@@ -42,3 +44,6 @@ Competition data (`train.csv`, `test.csv`, `sample_submission.csv`) is loaded at
 
 ## 5. Evaluation Metric
 **MAP@3** — top-3 ranked predictions per question; score = 1.0 (rank 1), 0.5 (rank 2), 1/3 (rank 3), 0 otherwise, averaged over all questions.
+
+## 6. Live Demo
+The best-performing model from this project (a custom BiLSTM + Transformer architecture trained from scratch) is deployed as an interactive Hugging Face Space, allowing users to input a question and five answer options and receive ranked model predictions in real time. Try it here: [MCQ Scratch Solver](https://huggingface.co/spaces/pranay-aggarwal/mcq-scratch-solver). The trained model weights and configuration are also hosted separately on the Hugging Face Model Hub: [mcq-scratch-lstm-transformer](https://huggingface.co/pranay-aggarwal/mcq-scratch-lstm-transformer).
